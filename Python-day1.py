@@ -15,4 +15,4 @@ x = str(3)
 y = int(3)
 z = float(3)
 name = "suraj"
-print(type(x),type(y),type(z),type(name))
+print(type(x),type(y),type(z),type(name))#we can use type() to print type of a variable
