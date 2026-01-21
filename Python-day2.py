@@ -31,6 +31,17 @@ print(str[1:6]) #uraj
 print(str[:4]) #start with 0 and ouput is sura
 print(str[1:len(str)]) #is same as str[1: ]
 
+#FUNCTION PERFROM ON STRING
+str = "i am studying python."
+print(str.endswith("on.")) #return true if string ends with substr
+# str = str.capitalize()
+print(str.capitalize()) #capitalize 1st char
+print(str)
+print(str.replace("python","java")) #replace all occurrences of old str.replace("u","o")
+print(str.find("u")) #return 1st index of 1st occurrer or if not exist then output is -1
+print(str.count("t"))
+
+
 
 
 
