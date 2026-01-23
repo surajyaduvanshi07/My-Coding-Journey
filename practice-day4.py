@@ -25,7 +25,7 @@
 #     i += 1
 # print("end of loop")
 # print("end of a table")
-#WAP ro elements of the following list using a loop
+#WAP to elements of the following list using a loop
 # num = [1,4,9,16,25,36,49,64,81,100]
 # i = 0
 # while i < len(num):
@@ -40,3 +40,15 @@
 #      if (tup[idx] == x):
 #           print("found",idx)
 #      idx += 1
+# num = [1,4,9,16,25,36,49,64,81,100]
+# for val in num:
+#     print(val)
+# else:
+#     print("END")
+# x = int (input("enter the number: "))
+# for val in num:
+#     if(val == x):
+#         print(val)
+    
+# else:
+#     print("END")
