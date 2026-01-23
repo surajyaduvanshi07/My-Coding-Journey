@@ -30,6 +30,11 @@ str = "Suraj yadav" #ending idx is not included
 print(str[1:6]) #uraj 
 print(str[:4]) #start with 0 and ouput is sura
 print(str[1:len(str)]) #is same as str[1: ]
+# String Format
+"""F-String """
+# age = 19
+# txt = f"My name is Suraj. I am {age}"
+# print(txt)
 
 # #FUNCTION PERFROM ON STRING
 str = "i am studying python."
