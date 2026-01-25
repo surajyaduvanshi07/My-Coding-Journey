@@ -2,10 +2,10 @@
 # WHILE LOOP (SYNTAX)
 #while (condition):
        #statement
-while True :
-    print("hello")
+# while True :
+#     print("hello")
 count = 1 #iterator
-while count <= 5:
+while count <= 5: #iteration (how my time loop work)
     print("Hello")
     count += 1
 print(count)
