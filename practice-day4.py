@@ -229,3 +229,65 @@ while a > 0:
     count += 1
 print("Total digits:",count)
 #Reverse a number using a loop (e.g., 123 → 321)
+num = 123
+reverse = 0
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+print("Reversed Number is : ",reverse)
+# Check if a number is a palindrome (121 → yes)
+num = 121
+original = num
+reverse = 0
+while num > 0:
+    digit = num % 10
+    reverse = reverse*10 + digit
+    num = num // 10
+print(reverse)
+if(reverse == original):
+    print("IT is a palindrome")
+else:
+    print("not a palindrome")
+#pattern printing
+for i in range(1,6):
+    for j in range(i):
+        print("*",end="")
+    print()
+for i in range(6,0,-1):
+    for j in range(i):
+        print("*",end="")
+    print()
+#Print a square pattern of stars (n x n)
+n = int(input("Enter the number: "))
+for i in range(n):
+    for j in range(n):
+        print("*", end="")
+    print()
+#Print multiplication tables from 1 to 10
+for i in range(1,11):
+    print("5 x",i,"=",5*i)
+for i in range(1,11):
+    print("\nTable of",i)
+
+    for j in range(1,11):
+        print(i,"x",j,"=",i*j)
+count = 0
+for i in range(1,6):
+    for j in range(1,6):
+        print(i,j)
+        count += j
+print("Count",count)
+list = [1,2,3,4,5,6]
+total = 0
+for i in list:
+    if (i%2 == 0):
+        total += 1
+    print(total)
+#     total += i
+# print("Total",total)
+new_list = []
+for i in list:
+    new_list.append(i*i)
+print(new_list)
+
