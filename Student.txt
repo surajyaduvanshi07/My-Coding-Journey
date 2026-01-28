@@ -1,0 +1,4 @@
+
+Name: Ashish | Rollno.: 1  | Phy = 70.0 | Chem = 80.0 | Bio = 90.0
+Name: Raghu | Rollno.: 21  | Phy = 90.0 | Chem = 80.0 | Math = 90.0
+Name: Suraj | Rollno.: 34  | Phy = 90.0 | Chem = 90.0 | Math = 90.0
