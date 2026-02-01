@@ -13,35 +13,35 @@ f = open("file_name", "mode")
 data = f.read()
 f.close()
 """
-# f = open("My-Coding-Journey/demo.txt","r")
-# # data = f.read()#read complete file
-# # data = f.read(5)#read charcter by indexing which you give
-# line1 = f.readline() #read line one by one
-# print(line1)
-# line2 = f.readline()
-# print(line2)
-# # print(data)
-# # print(type(data))
-# f.close()
+f = open("My-Coding-Journey/demo.txt","r")
+# data = f.read()#read complete file
+# data = f.read(5)#read charcter by indexing which you give
+line1 = f.readline() #read line one by one
+print(line1)
+line2 = f.readline()
+print(line2)
+# print(data)
+# print(type(data))
+f.close()
 """
 WRITING TO A FILE
 """
-# f = open("My-Coding-Journey/demo.txt","w")
-# f.write("I want to learn javascript tomorrow. 1234")
-# f = open("My-Coding-Journey/demo.txt","a")
-# f.write("\nMy name is suraj yadav")
-# f.close()
-# f = open("My-Coding-Journey/demo.txt","r+") #overwrite 
-# f.write("KBC")
-# print(f.read())
-# f.close()
+f = open("My-Coding-Journey/demo.txt","w")
+f.write("I want to learn javascript tomorrow. 1234")
+f = open("My-Coding-Journey/demo.txt","a")
+f.write("\nMy name is suraj yadav")
+f.close()
+f = open("My-Coding-Journey/demo.txt","r+") #overwrite 
+f.write("KBC")
+print(f.read())
+f.close()
 #with syntax
-# with open("My-Coding-Journey/demo.txt","r") as f:
-#     data = f.read()
-#     print(data)
+with open("My-Coding-Journey/demo.txt","r") as f:
+    data = f.read()
+    print(data)
 
-# with open("My-Coding-Journey/demo.txt","w") as f:
-#     f.write("My new day start")
+with open("My-Coding-Journey/demo.txt","w") as f:
+    f.write("My new day start")
 """
 DELETING A FILE
 using the os module
